@@ -1,0 +1,17 @@
+{
+  "name": "micro-json-errors",
+  "version": "0.1.3",
+  "description": "",
+  "main": "compat.js",
+  "scripts": {
+    "prepublish": "async-to-gen index.js > compat.js"
+  },
+  "author": "Mark Marijnissen",
+  "license": "MIT",
+  "dependencies": {
+    "http-status-codes": "^1.1.6"
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.3"
+  }
+}
